@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<!-- OGP宣言 -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no"><!-- 電話のリンクをしない設定 -->
+	<title>Rich-Life</title>
+	<meta name="description" content="説明文"><!-- 概要欄 -->
+	<meta property="og:title" content="タイトル"><!-- OGPタイトル -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://example.com/"><!-- OGPサイトURL -->
+	<meta property="og:image" content="https://example.com/img/ogp.png"><!-- OGPサムネイル -->
+	<meta property="og:site_name" content="タイトル"><!-- OGPサイトネーム -->
+	<meta property="og:description" content="説明文"><!-- OGPサイトの概要欄 -->
+	<meta name="twitter:card" content="summary_large_image"><!-- OGP Twitterカード -->
+	<!-- fontawesome -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2"> -->
+	<script src="https://kit.fontawesome.com/e6e1cd3731.js" crossorigin="anonymous"></script>
+	<!-- Adobe Fonts -->
+	<link rel="stylesheet" href="https://use.typekit.net/hvp7jzm.css">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<!-- ファビコンの設定 -->
+	<!-- <link rel="icon" type="image/png" href=""> 192 * 192 -->
+	<!-- <link rel="icon" type="image/png" href=""> 180 * 180 -->
+	<!-- <link rel="icon" type="image/png" href=""> nomal -->
+</head>
+
+<body>
+	<header class="p-header l-header">
+		<h1 class="p-header__logo l-header__logo">
+			<a href="#" class="p-header__logo__link">
+				<img src="./assets/img/logo.svg" alt="ロゴマーク">
+			</a>
+		</h1>
+
+		<nav class="p-header__nav u-hidden-tab">
+			<ul class="p-header__lists">
+				<li class="p-header__item c-btn1">
+					<a href="#" class="p-header__link">家具</a>
+				</li>
+				<li class="p-header__item c-btn1">
+					<a href="#" class="p-header__link">家電</a>
+				</li>
+				<li class="p-header__item">
+					<a href="#" class="p-header__link">法人のお客様へ</a>
+				</li>
+				<li class="p-header__item--login">
+					<a href="#" class="p-header__link--login">ログイン/会員登録</a>
+				</li>
+				<li class="p-header__item--cart">
+					<a href="#" class="p-header__link p-header__link--cart">
+						<i class="fa-solid fa-cart-shopping"></i>
+					</a>
+				</li>
+			</ul>
+			<!-- /.p-header__lists -->
+			<ul class="p-header-sp__list u-hidden-pc">
+				<li class="p-header-sp__item">
+					<a href="#" class="p-header-sp__item__link">
+						<img src="./assets/img/sp/arrow-sp.png" alt="">
+					</a>
+				</li>
+				<li class="p-header-sp__item">
+					<a href="#" class="p-header-sp__item__link">
+						<i class="fa-solid fa-cart-shopping"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- /.p-header__nav -->
+		<!-- スマホ時のナビゲーション表示 -->
+		<ul class="p-header-sp__list u-hidden-pc">
+			<li class="p-header-sp__item">
+				<a href="#" class="p-header-sp__item__link">
+					<img src="./assets/img/sp/arrow-sp.png" alt="">
+				</a>
+			</li>
+			<li class="p-header-sp__item">
+				<a href="#" class="p-header-sp__item__link">
+					<i class="fa-solid fa-cart-shopping"></i>
+				</a>
+			</li>
+		</ul>
+		<!-- /スマホ時のナビゲーション表示 -->
+		<!-- ドロワーの表示 -->
+		<div class="js-openbtn l-header__drawer u-hidden-pc"><span></span><span></span><span></span></div>
+		<nav id="js-g-nav">
+			<div id="js-g-nav-list">
+				<ul>
+					<li><a href="#">Top</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Service</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- / ドロワー実装 -->
+	</header>
+	<!-- /.p-header -->
+	<div class="p-mv l-mv">
+		<div class="p-mv__bg"></div>
+		<div class="p-mv__textArea l-mv__textArea">
+			<p class="p-mv__read">
+				<span class="p-mv__read__span">
+					いつでもどこでも。
+				</span>
+			</p>
+			<p class="p-mv__read">
+				<span class="p-mv__read__span">
+					わたしの好きが集まる暮らし。
+				</span>
+			</p>
+			<p class="p-mv__sub">
+				<span class="p-mv__sub__span">
+					おうち空間を自由かつ手軽に模様替え
+				</span>
+			</p>
+		</div>
+	</div>
+	<!-- /.p-mv -->
+	<main>
+		<section class="p-pop1">
+			<div class="p-pop1__contentArea l-pop1__contentArea">
+				<div class="p-pop1__bg-right"></div>
+				<div class="p-pop1__bg-left"></div>
+				<div class="p-pop1__textArea">
+					<span class="p-pop1__textArea__span">今だけ！</span>
+					<p class="p-pop1__text">
+						高品質でセンスのいい<br class="u-active-520">家具・家電を<br>
+						<span class="p-pop1__text02">
+							<span class="p-pop1__text-span">10</span>%0FF価格で<br class="u-active-520">レンタルできます。
+						</span>
+
+					</p>
+				</div>
+				<ul class="p-pop1__lists l-pop1__lists">
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">月額<br class="u-active-520">440円〜</p>
+					</li>
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">1ヶ月〜レンタル可能</p>
+					</li>
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">長期レンタル<br class="u-active-520">割引あり</p>
+					</li>
+				</ul>
+				<div class="p-pop1__btnArea l-pop1__btnArea">
+					<a href="#" class="p-pop1__btn1">カンタン！ 3 STEP <span class="p-pop1__btn1__span"></span></a>
+					<a href="#" class="p-pop1__btn2">今すぐ会員登録</a>
+				</div>
+			</div>
+			<!-- /.p-pop1__contentArea -->
+		</section>
+		<!-- /.p-pop1 -->
+		<section class="p-realization l-section l-realization">
+			<div class="l-inner">
+				<div class="l-realization__section-title">
+					<h2 class="c-section-title l-section__title">Rich-Lifeがお約束する、<br class="u-active-520">5つの暮らし</h2>
+					<p class="c-section-sub">REALIZATION</p>
+				</div>
+				<!-- /.p-realization__section-title -->
+				<div class="p-realization__content l-realization__content">
+					<ul class="p-realization__lists">
+						<li class="p-realization__item">
+							<div class="c-card1 p-realization__card">
+								<p class="c-card1__number">reason 01</p>
+								<div class="c-card1__img">
+									<img src="./assets/img/img_reason1.png" alt="椅子">
+								</div>
+								<p class="c-card1__text">交換・返却費が無料で“今”最適な空間を選べる</p>
+							</div>
+						</li>
+						<li class="p-realization__item">
+							<div class="c-card1 p-realization__card">
+								<p class="c-card1__number">reason 02</p>
+								<div class="c-card1__img">
+									<img src="./assets/img/img_reason2.png" alt="椅子">
+								</div>
+								<p class="c-card1__text">初期コスト抑え、気軽に質の良い空間を手に入れられる</p>
+							</div>
+						</li>
+						<li class="p-realization__item">
+							<div class="c-card1 p-realization__card">
+								<p class="c-card1__number">reason 03</p>
+								<div class="c-card1__img">
+									<img src="./assets/img/img_reason3.png" alt="椅子">
+								</div>
+								<p class="c-card1__text">モノを持たずに引っ越しや模様替えを楽しめる</p>
+							</div>
+						</li>
+						<li class="p-realization__item">
+							<div class="c-card1 p-realization__card">
+								<p class="c-card1__number">reason 04</p>
+								<div class="c-card1__img">
+									<img src="./assets/img/img_reason4.png" alt="椅子">
+								</div>
+								<p class="c-card1__text">モノをなるべく捨てない、環境に優しい暮らし</p>
+							</div>
+						</li>
+						<li class="p-realization__item">
+							<div class="c-card1 p-realization__card">
+								<p class="c-card1__number">reason 05</p>
+								<div class="c-card1__img">
+									<img src="./assets/img/img_reason5.png" alt="椅子">
+								</div>
+								<p class="c-card1__text">本当に好きなモノに囲まれる豊かな暮らし</p>
+							</div>
+						</li>
+					</ul>
+					<!-- /.p-realization__lists -->
+				</div>
+				<!-- /.p-realization__content -->
+			</div>
+			<!-- /.l-inner -->
+		</section>
+
+		<section class="p-voice l-voice">
+			<div class="p-voice__bg"></div>
+			<div class="l-inner">
+				<div class="l-voice__saleArea">
+					<p class="p-voice__sale l-voice__sale">おかげさまで<br class="u-active-520">Rich-Life USER 総会員数</p>
+					<p class="p-voice__sale-main l-voice__sale-main"><span class="p-voice__sale-main__span">16</span>万人突破!</p>
+				</div>
+				<h2 class="c-section-title l-section__title">利用者様の声</h2>
+				<p class="c-section-sub">VOICE</p>
+			</div>
+			<!-- /.l-inner -->
+			<div class="p-voice__content">
+				<ul class="p-voice__card">
+					<li class="p-voice__item">
+						<div class="p-voice__item__img">
+							<span class="p-voice__item__img__span">REVIEW 01</span>
+							<img src="./assets/img/img_woman in the room.jpg" alt="部屋の中にいる女性">
+						</div>
+						<div class="p-voice__item__content">
+							<p class="p-voice__item__title">
+								<span class="p-voice__item__title__span">
+									<span>
+										センスのいい家具で
+									</span>
+								</span>
+								<span class="p-voice__item__title__span">
+									<span>
+										ワンランク上のお部屋に
+									</span>
+								</span>
+							</p>
+							<p class="p-voice__item__text">
+								必要なときにだけ借りることができるコンセプトに魅力を感じて利用。
+								<br>
+								レンタルできる家具はどれもセンスが良いので、ハズレがありません。
+								そしてRich-Lifeの家具をお迎えしたことで、いつものおうち空間がワンランク上の部屋になって本当にうれしいです。
+								<br>
+								今ではシーズンごとに家具のテイストを変えるのが楽しみになっています。
+							</p>
+							<div class="p-voice__item__name">20代女性・XXXX子さん</div>
+						</div>
+					</li>
+					<li class="p-voice__item">
+						<div class="p-voice__item__img">
+							<span class="p-voice__item__img__span">REVIEW 02</span>
+							<img src="./assets/img/img_parent&child.jpg" alt="親と子供">
+						</div>
+						<div class="p-voice__item__content">
+							<p class="p-voice__item__title">
+								<span class="p-voice__item__title__span">
+									<span>
+										家具家電を汚した時の
+									</span>
+								</span>
+								<span class="p-voice__item__title__span">
+									<span>
+										レンタル保証がうれしい。
+									</span>
+								</span>
+							</p>
+							<p class="p-voice__item__text">
+								家具のレンタルに興味はあったものの、小さい子どもがいるので家具・家電を汚してしまった時のことが心配でなかなか踏み切れずにいました。ですがRich-Lifeは家具を汚したときの保証があるので安心して利用できています。以前子供がソファーに飲み物をこぼしてしまったのですが無料で交換してくれてとても助かりました。
+							</p>
+							<div class="p-voice__item__name">30代女性・XXXX子さん</div>
+						</div>
+					</li>
+					<li class="p-voice__item">
+						<div class="p-voice__item__img">
+							<span class="p-voice__item__img__span">REVIEW 03</span>
+							<img src="./assets/img/img_room 1.jpg" alt="部屋">
+						</div>
+						<div class="p-voice__item__content">
+							<p class="p-voice__item__title">
+								<span class="p-voice__item__title__span">
+									<span>
+										本当に好きなモノに囲まれる
+									</span>
+								</span>
+								<span class="p-voice__item__title__span">
+									<span>
+										豊かな暮らしを。
+									</span>
+								</span>
+							</p>
+							<p class="p-voice__item__text">
+								子どもが巣立ち、これからは必要最小限でかつ品質の良いお気に入りのモノたちに囲まれた生活をしたいと思っていました。でもいきなり購入するのは気が引ける、と思っていたところこちらのサービスを見つけました。月額440円〜利用できますので色々試しながらこれからの自分たちに合った家具・家電を探しています。
+							</p>
+							<div class="p-voice__item__name">50代女性・XXXX子さん</div>
+						</div>
+					</li>
+
+				</ul>
+				<!-- /.p-voice__card -->
+			</div>
+			<!-- /.p-voice__content -->
+
+		</section>
+		<!-- /.p-voice -->
+
+		<section class="p-solution l-solution l-catch-read">
+			<div class="l-inner">
+				<h2 class="c-section-title l-section__title p-solution__title">こんなことで<br class="u-active-sp">お悩みではないですか？
+				</h2>
+				<p class="c-section-sub p-solution__sub-title">SOLUTION</p>
+				<div class="p-solution__content l-solution__content">
+					<ul class="p-solution__lists">
+						<li class="p-solution__item">
+							<p class="p-solution__item__text c-box-read1">しっくりくる家具を選びたい。でもいきなり買うのは自信がない</p>
+						</li>
+						<li class="p-solution__item">
+							<p class="p-solution__item__text c-box-read1">引っ越しのたびにものを持っていることが大きな負担である。</p>
+						</li>
+						<li class="p-solution__item">
+							<p class="p-solution__item__text c-box-read1">きちんとした家具を使いたいけど、予算的に負担が大きい</p>
+						</li>
+						<div class="p-solution__item__box">
+							<li class="p-solution__item">
+								<p class="p-solution__item__text c-box-read1">新しい商品が出たら買い換えたい</p>
+							</li>
+							<li class="p-solution__item">
+								<p class="p-solution__item__text c-box-read1">模様替えをもっと楽しみたい</p>
+							</li>
+						</div>
+						<li class="p-solution__item">
+							<p class="p-solution__item__text c-box-read1">モノを捨てない、環境に優しい暮らしを楽しみながらしたい</p>
+						</li>
+					</ul>
+					<!-- /.p-solution__lists -->
+				</div>
+				<!-- /.p-solution__content l-solution__content -->
+			</div>
+			<!-- /.l-inner -->
+			<div class="p-catch-read l-catch-read__absolute">
+				<p class="c-catch-read"></p>
+			</div>
+			<!-- /.p-catch-read__box -->
+		</section>
+		<!-- /.p-solution l-solution -->
+
+		<section class="l-about p-about l-section">
+			<div class="l-inner">
+				<h2 class="c-section-title l-section__title p-about__title">Rich-Lifeで叶える、<br class="u-active-sp">理想の暮らし紹介</h2>
+				<p class="c-section-sub p-about__sub-title">REALIZATION</p>
+				<div class="p-about__bg l-about__bg1">
+					<div class="p-about__content l-inner l-about__content">
+						<div class="l-about__transform">
+							<div class="p-about__head c-about l-about__head">
+								<picture>
+									<source srcset="./assets/img/img_main.jpg" media="(min-width: 520px)">
+									<img src="./assets/img/sp/img_main-sp.png" alt="content1">
+								</picture>
+								<span class="p-about__head__span">SCENE 01</span>
+							</div>
+							<!-- /.p-about__head -->
+							<div class="p-about__body l-about__body">
+								<div class="p-about__text-boxArea l-about__text-box">
+									<h3 class="p-about__heading-title">
+										<span>
+											<span><!-- tab時、二つ目のspanを右側に寄せるため二つspanを用意している -->
+												「スキ」なものを際立たせた
+											</span>
+										</span>
+										<span>
+											<span>
+												空間作りを。
+											</span>
+										</span>
+									</h3>
+									<div class="p-about__text-box">
+										<p class="p-about__text-box__title p-about__text-box__title1">STYLE POINT</p>
+										<p class="p-about__text-box__text">
+											ソファの足元にオットマンを配置すれば、カウチスタイルの出来上がり。
+											<br>
+											アームレスの特徴を活かして左右どちらにでも足を降ろしやすいので、楽な姿勢を見つけてみて。
+										</p>
+									</div>
+									<div class="p-about__body__img u-active-sp">
+										<img src="./assets/img/sp/img_man-sp.png" alt="ソファーに座る男性">
+									</div>
+									<div class="p-about__text-box">
+										<p class="p-about__text-box__title p-about__text-box__title1">ONE POINT ADVICE
+										</p>
+										<p class="p-about__text-box__text">
+											モバイルプロジェクターをサイドテーブルに置いて、足を伸ばした状態でゆったりと映画を楽むのはどうでしょう。Rich-Lifeではターンテーブルやスピーカーなどの音楽
+											家電も取り扱っています。
+										</p>
+									</div>
+									<div class="p-about__body__img u-active-sp">
+										<img src="./assets/img/sp/img_projector-sp.png" alt="プロジェクター">
+									</div>
+								</div>
+								<!-- /.p-about__text-box -->
+
+								<div class="p-about__imgArea u-hidden-sp">
+									<div class="p-about__img l-about__img">
+										<img src="./assets/img/img_man.jpg" alt="man">
+									</div>
+									<div class="p-about__img l-about__img">
+										<img src="./assets/img/img_projector.png" alt="projector">
+									</div>
+								</div>
+								<!-- /.p-about__imgArea -->
+							</div>
+							<!-- /.p-about__body -->
+							<div class="p-about__footer">
+								<h3 class="p-about__footer__main-title">使用している家具・家電</h3>
+								<p class="p-about__footer__sub">LINE UP</p>
+								<ul class="p-about__footer__card">
+									<li class="p-about__footer__item">
+										<div class="p-about__footer__head">
+											<img src="./assets/img/img_speaker.png" alt="speaker">
+										</div>
+										<div class="p-about__footer__body">
+											<p class="p-about__footer__title">House of Speaker</p>
+											<p class="p-about__footer__text">Rich Black</p>
+										</div>
+										<!-- /.p-about__footer__body -->
+									</li>
+									<li class="p-about__footer__item">
+										<div class="p-about__footer__head">
+											<img src="./assets/img/img_projector2.png" alt="projector">
+										</div>
+										<div class="p-about__footer__body">
+											<p class="p-about__footer__title">Mobile Projector</p>
+											<p class="p-about__footer__text">Silver</p>
+										</div>
+										<!-- /.p-about__footer__body -->
+									</li>
+									<li class="p-about__footer__item">
+										<div class="p-about__footer__head">
+											<img src="./assets/img/img_roomsofa.png" alt="room sofa">
+										</div>
+										<div class="p-about__footer__body">
+											<p class="p-about__footer__title">Couch Sofa</p>
+											<p class="p-about__footer__text">1P</p>
+										</div>
+										<!-- /.p-about__footer__body -->
+									</li>
+								</ul>
+								<!-- /.p-about__footer__card -->
+							</div>
+							<!-- /.p-about__footer -->
+						</div>
+						<!-- /.l-about__transform -->
+					</div>
+					<!-- /.p-about__bg -->
+				</div>
+				<!-- /.p-about__content l-about__content -->
+
+				<div class="p-about__bg2 l-about__bg2">
+					<div class="p-about__content l-inner l-about__content">
+						<div class="l-about__transform">
+							<div class="p-about__head c-about l-about__head">
+								<picture>
+									<source srcset="./assets/img/img_main2.jpg" media="(min-width: 520px)">
+									<img src="./assets/img/sp/img_main2-sp.jpg" alt="content2">
+								</picture>
+								<span class="p-about__head__span">SCENE 02</span>
+							</div>
+							<!-- /.p-about__head -->
+							<div class="p-about__body p-about__body2 l-about__body">
+								<div class="p-about__text-boxArea p-about__text-boxArea2 l-about__text-box2">
+									<h3 class="p-about__heading-title p-about-heading-title2">
+										<span>
+											<span> <!-- tab時、二つ目のspanを右側に寄せるため二つspanを用意している -->
+												季節にあった彩りを
+											</span>
+										</span>
+										<span>
+											<span>
+												手軽に楽しむ。
+											</span>
+										</span>
+									</h3>
+									<div class="p-about__text-box">
+										<p class="p-about__text-box__title p-about__text-box__title2">STYLE POINT</p>
+										<p class="p-about__text-box__text">
+											ソファの上のクッションや壁面のフレーム、ソファ横の1人掛けの椅子などをベージュ〜ブラウンのアースカラーで統一。一方で碧編の白をワゴンの上に置くことで調和をとり、全体的に落ち着いた雰囲気に。
+										</p>
+									</div>
+									<div class="p-about__body__img u-active-sp">
+										<img src="./assets/img/sp/img_room-right-sp.jpg" alt="ソファー">
+									</div>
+									<div class="p-about__text-box">
+										<p class="p-about__text-box__title p-about__text-box__title2">ONE POINT ADVICE
+										</p>
+										<p class="p-about__text-box__text">
+											ソファの上のクッションや壁面のフレーム、ソファ横の1人掛けの椅子などをベージュ〜ブラウンのアースカラーで統一。一方で碧編の白をワゴンの上に置くことで調和をとり、全体的に落ち着いた雰囲気に。
+										</p>
+									</div>
+									<div class="p-about__body__img u-active-sp">
+										<img src="./assets/img/sp/img_room-left-sp.jpg" alt="リビング">
+									</div>
+								</div>
+								<!-- /.p-about__text-box -->
+								<div class="p-about__imgArea u-hidden-sp">
+									<div class="p-about__img2 l-about__img">
+										<img src="./assets/img/img_room-left.jpg" alt="room">
+									</div>
+									<div class="p-about__img2 l-about__img">
+										<img src="./assets/img/img_room-right.jpg" alt="room">
+									</div>
+								</div>
+								<!-- /.p-about__imgArea -->
+							</div>
+							<!-- /.p-about__body -->
+							<div class="p-about__footer">
+								<h3 class="p-about__footer__main-title">使用している家具・家電</h3>
+								<p class="p-about__footer__sub">LINE UP</p>
+								<ul class="p-about__footer__card">
+									<li class="p-about__footer__item">
+										<div class="p-about__footer__head">
+											<img src="./assets/img/img_sofa.jpg" alt="sofa">
+										</div>
+										<div class="p-about__footer__body">
+											<p class="p-about__footer__title">Low Sofa</p>
+											<p class="p-about__footer__text">ローソファ</p>
+										</div>
+										<!-- /.p-about__footer__body -->
+									</li>
+									<li class="p-about__footer__item">
+										<div class="p-about__footer__head">
+											<img src="./assets/img/img_table.jpg" alt="table">
+										</div>
+										<div class="p-about__footer__body">
+											<p class="p-about__footer__title">MMini Table</p>
+											<p class="p-about__footer__text">直径45cm</p>
+										</div>
+										<!-- /.p-about__footer__body -->
+									</li>
+									<li class="p-about__footer__item">
+										<div class="p-about__footer__head">
+											<img src="./assets/img/img_chair.jpg" alt="chair">
+										</div>
+										<div class="p-about__footer__body">
+											<p class="p-about__footer__title">Single Sofa</p>
+											<p class="p-about__footer__text">一人掛け<span class="u-hidden-sp">ソファ</span></p>
+										</div>
+										<!-- /.p-about__footer__body -->
+									</li>
+								</ul>
+								<!-- /.p-about__footer__card -->
+							</div>
+							<!-- /.p-about__footer -->
+						</div>
+						<!-- /.l-about__transform -->
+					</div>
+					<!-- /.p-about__bg -->
+				</div>
+				<!-- /.p-about__content l-about__content -->
+			</div>
+			<!-- /.l-inner -->
+		</section>
+		<!-- /.l-about p-about -->
+
+		<section class="p-pop1">
+			<div class="p-pop1__contentArea l-pop1__contentArea">
+				<div class="p-pop1__bg-right"></div>
+				<div class="p-pop1__bg-left"></div>
+				<div class="p-pop1__textArea">
+					<span class="p-pop1__textArea__span">今だけ！</span>
+					<p class="p-pop1__text">
+						高品質でセンスのいい<br class="u-active-520">家具・家電を<br>
+						<span class="p-pop1__text02">
+							<span class="p-pop1__text-span">10</span>%0FF価格で<br class="u-active-520">レンタルできます。
+						</span>
+
+					</p>
+				</div>
+				<ul class="p-pop1__lists l-pop1__lists">
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">月額<br class="u-active-520">440円〜</p>
+					</li>
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">1ヶ月〜レンタル可能</p>
+					</li>
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">長期レンタル<br class="u-active-520">割引あり</p>
+					</li>
+				</ul>
+				<div class="p-pop1__btnArea l-pop1__btnArea">
+					<a href="#" class="p-pop1__btn1">カンタン！ 3 STEP <span class="p-pop1__btn1__span"></span></a>
+					<a href="#" class="p-pop1__btn2">今すぐ会員登録</a>
+				</div>
+			</div>
+			<!-- /.p-pop1__contentArea -->
+		</section>
+		<!-- /.p-pop1 -->
+
+		<section class="p-features l-section l-features">
+			<div class="l-inner">
+				<h2 class="c-section-title l-section__title p-features__title">Rich-Lifeが愛される<br class="u-active-sp">4つのポイント</h2>
+				<p class="c-section-sub p-features__sub-title">FEATURES</p>
+				<ul class="p-features__list l-features__list">
+					<li class="p-features__item">
+						<div class="p-features__item__head u-active-sp">
+							<span class="p-features__item__point">point01</span>
+							<h3 class="p-features__item__title">
+								<span class="p-features__item__title-span">交</span>換・返却が自由でカンタン
+							</h3>
+						</div>
+						<div class="p-features__item__img">
+							<img src="./assets/img/img_desk&chair.png" alt="desk and chair">
+						</div>
+						<div class="p-features__item__textArea">
+							<div class="p-features__item__headingArea u-active-pc">
+								<span class="p-features__item__point">point01</span>
+								<h3 class="p-features__item__title">
+									<span class="p-features__item__title-span">交</span>換・返却が自由でカンタン
+								</h3>
+							</div>
+							<p class="p-features__item__text">
+								自分の生活に最適なものを使うために時間や労力をかけて選んだにも関わらず、「思っていたのと違う」と後悔した経験はありませんか？Rich-Lifeでは家具・家電のレンタルができますので取捨選択にかける時間を大幅にカットできます。また実際に使用してみて、自分に合わないと思ったらすぐに交換・返却ができるので、手軽さゆえの心の余裕が生まれるのもポイント。
+							</p>
+						</div>
+					</li>
+					<li class="p-features__item p-features__item--reverse">
+						<div class="p-features__item__head u-active-sp">
+							<span class="p-features__item__point">point02</span>
+							<h3 class="p-features__item__title">
+								<span class="p-features__item__title-span">月</span>額定額制で返却期限なし
+							</h3>
+						</div>
+						<div class="p-features__item__img">
+							<img src="./assets/img/img_subscription.png" alt="subscription">
+						</div>
+						<div class="p-features__item__textArea">
+							<div class="p-features__item__headingArea u-active-pc">
+								<span class="p-features__item__point">point02</span>
+								<h3 class="p-features__item__title">
+									<span class="p-features__item__title-span">月</span>額定額制で返却期限なし
+								</h3>
+							</div>
+							<p class="p-features__item__text">
+								1ヶ月という短期間からのレンタルが可能ですので、自分により合う家具・家電を色々試せる手軽さが最大の特徴。また、月額定額制なので費用管理がしやすいのもポイント。
+							</p>
+						</div>
+					</li>
+					<li class="p-features__item">
+						<div class="p-feature__item__head u-active-sp">
+							<span class="p-features__item__point">point03</span>
+							<h3 class="p-features__item__title">
+								<span class="p-features__item__title-span">き</span>ちんとした品質でセンスのいいものだけをセレクト
+							</h3>
+						</div>
+						<div class="p-features__item__img">
+							<img src="./assets/img/img_room.png" alt="room">
+						</div>
+						<div class="p-features__item__textArea">
+							<div class="p-features__item__headingArea u-active-pc">
+								<span class="p-features__item__point">point03</span>
+								<h3 class="p-features__item__title">
+									<span class="p-features__item__title-span">き</span>ちんとした品質でセンスのいいものだけをセレクト
+								</h3>
+							</div>
+							<p class="p-features__item__text">
+								きちんとしたモノは自分の生活の質を向上させてくれます。生活の質は心の余裕にも繋がりますので、それが自然と自分の気持ちをも高めてくれる好循環が生まれます。またきちんとした品質でかつセンスのいいものだけを取り揃えておりますので家具・家電の善し悪しが分からないという人でも失敗が少ないのも嬉しいポイントです。
+							</p>
+						</div>
+					</li>
+					<li class="p-features__item p-features__item--reverse">
+						<div class="p-features__item__head u-active-sp">
+							<span class="p-features__item__point">point04</span>
+							<h3 class="p-features__item__title">
+								<span class="p-features__item__title-span">ラ</span>イフステージの変化に対応
+							</h3>
+						</div>
+						<div class="p-features__item__img">
+							<img src="./assets/img/img_family.png" alt="family">
+						</div>
+						<div class="p-features__item__textArea">
+							<div class="p-features__item__headingArea u-active-pc">
+								<span class="p-features__item__point">point04</span>
+								<h3 class="p-features__item__title">
+									<span class="p-features__item__title-span">ラ</span>イフステージの変化に対応
+								</h3>
+							</div>
+							<p class="p-features__item__text">
+								年齢が上がるにつれてライフステージは変遷していくもの。それと同時に、そのときの暮らしにあった家具・家電のスペックが変わりますので、購入するとなると生活スタイルが変わるたびに家具・家電の入れ替えを迫られるなんてことも。でもRich-Lifeはレンタル品なので、先の心配をすることなく「今の自分に必要なモノだけ」を置いておける気楽さを手に入れられます。また、まだまだ使えるモノを廃棄するという手間や罪悪感をも払拭してくれます。
+							</p>
+						</div>
+					</li>
+				</ul>
+				<!-- /.p-features__list l-features__list -->
+			</div>
+			<!-- /.l-inner -->
+		</section>
+		<!-- /.p-features -->
+
+		<section class="p-use l-use l-section">
+			<div class="l-inner">
+				<h2 class="c-section-title l-section__title p-use__title">
+					<span class="u-active-pc">
+						気軽に簡単にRich-Lifeの使い方
+					</span>
+					<span class="u-active-sp">
+						気軽に簡単。<br>Rich-Lifeの使い方
+					</span>
+				</h2>
+				<p class="c-section-sub p-use__sub-title">HOW TO USE</p>
+				<ul class="p-use__list l-use__list">
+					<li class="p-use__item">
+						<div class="p-use__item__img">
+							<img src="./assets/img/img_search.jpg" alt="search">
+						</div>
+						<!-- /.p-use__item__img -->
+						<div class="p-use__item__textArea">
+							<h3 class="p-use__item__title">
+								<span class="p-use__item__title-span">01</span>
+								ネットで注文
+							</h3>
+							<p class="p-use__item__text">
+								スマホやパソコンから、商品と配送希望日を選んで、注文
+							</p>
+						</div>
+						<!-- /.p-use__item__textArea -->
+					</li>
+					<li class="p-use__item">
+						<div class="p-use__item__img">
+							<img src="./assets/img/img_moving.jpg" alt="moving">
+						</div>
+						<!-- /.p-use__item__img -->
+						<div class="p-use__item__textArea">
+							<h3 class="p-use__item__title">
+								<span class="p-use__item__title-span">02</span>
+								配送・設置
+							</h3>
+							<p class="p-use__item__text">
+								専門業者がご自宅までお届け 商品の搬入は全ておまかせ
+							</p>
+						</div>
+						<!-- /.p-use__item__textArea -->
+					</li>
+					<li class="p-use__item">
+						<div class="p-use__item__img">
+							<img src="./assets/img/img_chair2.jpg" alt="chair2">
+						</div>
+						<!-- /.p-use__item__img -->
+						<div class="p-use__item__textArea">
+							<h3 class="p-use__item__title">
+								<span class="p-use__item__title-span">03</span>
+								ご利用
+							</h3>
+							<p class="p-use__item__text">
+								購入した商品と同じように普段の生活でご利用いただけます
+							</p>
+						</div>
+						<!-- /.p-use__item__textArea -->
+					</li>
+					<li class="p-use__item">
+						<div class="p-use__item__img">
+							<img src="./assets/img/img_room2.jpg" alt="room2">
+						</div>
+						<!-- /.p-use__item__img -->
+						<div class="p-use__item__textArea">
+							<h3 class="p-use__item__title">
+								<span class="p-use__item__title-span">04</span>
+								交換・返送
+							</h3>
+							<p class="p-use__item__text">
+								交換や返却の際も、搬出は専門業者に全ておまかせ
+								<br class="u-active-sp">
+								※一部地域を除く
+							</p>
+						</div>
+						<!-- /.p-use__item__textArea -->
+					</li>
+				</ul>
+				<!-- /.p-use__list l-use__list -->
+			</div>
+			<!-- /.l-inner -->
+		</section>
+		<!-- /.p-use -->
+
+		<section class="p-pop1">
+			<div class="p-pop1__contentArea l-pop1__contentArea">
+				<div class="p-pop1__bg-right"></div>
+				<div class="p-pop1__bg-left"></div>
+				<div class="p-pop1__textArea">
+					<span class="p-pop1__textArea__span">今だけ！</span>
+					<p class="p-pop1__text">
+						高品質でセンスのいい<br class="u-active-520">家具・家電を<br>
+						<span class="p-pop1__text02">
+							<span class="p-pop1__text-span">10</span>%0FF価格で<br class="u-active-520">レンタルできます。
+						</span>
+
+					</p>
+				</div>
+				<ul class="p-pop1__lists l-pop1__lists">
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">月額<br class="u-active-520">440円〜</p>
+					</li>
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">1ヶ月〜レンタル可能</p>
+					</li>
+					<li class="p-pop1__item">
+						<p class="p-pop1__item__text">長期レンタル<br class="u-active-520">割引あり</p>
+					</li>
+				</ul>
+				<div class="p-pop1__btnArea l-pop1__btnArea">
+					<a href="#" class="p-pop1__btn1">カンタン！ 3 STEP <span class="p-pop1__btn1__span"></span></a>
+					<a href="#" class="p-pop1__btn2">今すぐ会員登録</a>
+				</div>
+			</div>
+			<!-- /.p-pop1__contentArea -->
+		</section>
+		<!-- /.p-pop1 -->
+
+		<section class="p-faq l-faq l-section">
+			<div class="l-inner">
+				<h2 class="c-section-title l-section__title p-faq__title">よくある質問</h2>
+				<p class="c-section-sub p-faq__sub-title">FAQ</p>
+				<ul class="p-faq__link l-faq__link">
+					<li class="p-faq__item">
+						<dt class="p-faq__item__title js-accordion">
+							Rich-Lifeはどんなサービスですか？
+							<span class="p-faq__item__icon"></span>
+						</dt>
+						<dd class="p-faq__item__body">
+							<div class="p-faq__item__body__in">
+								Rich-lifeは必要なときに必要なものだけを使える家具・家電のレンタルサービスです。
+							</div>
+						</dd>
+					</li>
+					<li class="p-faq__item">
+						<dt class="p-faq__item__title js-accordion">
+							レンタル期間は選べますか？
+							<span class="p-faq__item__icon"></span>
+						</dt>
+						<dd class="p-faq__item__body">
+							<div class="p-faq__item__body__in">
+								レンタル期間は1ヶ月からです。更新手続きは毎月自動で行いますので更新手続きは不要です。
+							</div>
+						</dd>
+					</li>
+					<li class="p-faq__item">
+						<dt class="p-faq__item__title js-accordion">
+							注文してから届くまでどのくらい期間がかかりますか？
+							<span class="p-faq__item__icon"></span>
+						</dt>
+						<dd class="p-faq__item__body">
+							<div class="p-faq__item__body__in">
+								商品とお住まいの地域によりますが、約1週間ほどでお届けいたします。
+							</div>
+						</dd>
+					</li>
+					<li class="p-faq__item">
+						<dt class="p-faq__item__title js-accordion">
+							商品の交換は可能ですか？
+							<span class="p-faq__item__icon"></span>
+						</dt>
+						<dd class="p-faq__item__body">
+							<div class="p-faq__item__body__in">
+								可能でございます。マイページより交換申請手続きをお願いいたします。
+							</div>
+						</dd>
+					</li>
+					<li class="p-faq__item">
+						<dt class="p-faq__item__title js-accordion">
+							申込の仕方を教えてください。
+							<span class="p-faq__item__icon"></span>
+						</dt>
+						<dd class="p-faq__item__body">
+							<div class="p-faq__item__body__in">
+								1.ご希望の商品を選択し、カートへ入れてください。
+								2.右上のカートボタンを押し、お届け先と支払い情報の登録をお願いいたします。
+								3.配送日を選択し、注文確定ボタンを押していただけましたら注文完了となります。
+							</div>
+						</dd>
+					</li>
+				</ul>
+				<!-- /.p-faq__link l-faq__link -->
+				<div class="p-faq__btnArea l-faq__btnArea">
+					<a href="#" class="p-faq__btn">よくある質問を見る</a>
+				</div>
+				<!-- /.p-faq__btnArea -->
+			</div>
+			<!-- /.l-inner -->
+		</section>
+		<!-- /.p-faq -->
+
+
+
+	</main>
+
+	<footer class="p-footer l-footer">
+		<div class="l-inner">
+			<div class="p-footer__content l-footer__content">
+				<div class="p-footer__content__inner">
+					<h2 class="p-footer__content__title">SERVICE</h2>
+					<ul class="p-footer__list">
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">すべて</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">家具</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">家電</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">お知らせ</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">商品の魅力・選び方記事</a>
+						</li>
+					</ul>
+					<!-- /.p-footer__list -->
+				</div>
+				<!-- /.p-footer__content__inner -->
+				<div class="p-footer__content__inner">
+					<h2 class="p-footer__content__title">ABOUT</h2>
+					<ul class="p-footer__list">
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">会社概要</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">採用情報</a>
+						</li>
+					</ul>
+					<!-- /.p-footer__list -->
+				</div>
+				<!-- /.p-footer__content__inner -->
+				<div class="p-footer__content__inner">
+					<h2 class="p-footer__content__title">SUPPORT</h2>
+					<ul class="p-footer__list">
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">よくある質問</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">お問い合わせ(個人のお客様)</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">お問い合わせ(法人のお客様)</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">プライバシー</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">利用規約</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">法人会員向け利用規約</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">特定商取引法に基づく表記</a>
+						</li>
+					</ul>
+					<!-- /.p-footer__list -->
+				</div>
+				<!-- /.p-footer__content__inner -->
+				<div class="p-footer__content__inner">
+					<h2 class="p-footer__content__title">CLAS BUSINESS</h2>
+					<ul class="p-footer__list">
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">法人向けサービスについて</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">手軽にためす</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">まとめておまかせ</a>
+						</li>
+						<li class="p-footer__item">
+							<a href="#" class="p-footer__item__link">導入事例</a>
+						</li>
+					</ul>
+					<!-- /.p-footer__list -->
+				</div>
+				<!-- /.p-footer__content__inner -->
+			</div>
+			<!-- /.p-footer__content l-footer__content -->
+
+
+			<div class="p-footer__snsArea l-footer__snsArea">
+				<div class="p-footer__sns">
+					<a href="#" class="p-footer__sns--instagram">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+				</div>
+				<div class="p-footer__sns">
+					<a href="#" class="p-footer__sns--twitter">
+						<i class="fa-brands fa-twitter"></i>
+					</a>
+				</div>
+				<div class="p-footer__sns">
+					<a href="#" class="p-footer__sns--facebook">
+						<i class="fa-brands fa-facebook-f"></i>
+					</a>
+				</div>
+			</div>
+			<!-- /.p-footer__snsArea .l-footer__snsArea-->
+
+			<p class="p-footer__text l-footer__text">
+				本サイト内は株式会社CLAS様のご協力のもと作成したコーディング用の練習課題です。実在の人物・団体とは関係ありません。
+			</p>
+			<div class="p-footer__copyArea">
+				<small>&copy; 2022 Rich-Life Inc.</small>
+			</div>
+			<!-- /.p-footer__copyArea -->
+		</div>
+		<!-- /.l-inner -->
+	</footer>
+	<!-- /.p-footer l-footer -->
+
+
+	<!-- JQuery -->
+	<!-- <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+        integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script> -->
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<!-- js -->
+	<script src="./assets/js/script.js"></script>
+</body>
+
+</html>

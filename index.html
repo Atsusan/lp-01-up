@@ -7,25 +7,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no"><!-- 電話のリンクをしない設定 -->
 	<title>Rich-Life</title>
-	<meta name="description" content="説明文"><!-- 概要欄 -->
-	<meta property="og:title" content="タイトル"><!-- OGPタイトル -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://example.com/"><!-- OGPサイトURL -->
-	<meta property="og:image" content="https://example.com/img/ogp.png"><!-- OGPサムネイル -->
-	<meta property="og:site_name" content="タイトル"><!-- OGPサイトネーム -->
-	<meta property="og:description" content="説明文"><!-- OGPサイトの概要欄 -->
-	<meta name="twitter:card" content="summary_large_image"><!-- OGP Twitterカード -->
-	<!-- fontawesome -->
-	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2"> -->
-	<script src="https://kit.fontawesome.com/e6e1cd3731.js" crossorigin="anonymous"></script>
+	<meta name="description" content="いつでもどこでも。わたしの好きが集まる暮らし。おうち空間を自由かつ手軽に模様替え"><!-- 概要欄 -->
 	<!-- Adobe Fonts -->
 	<link rel="stylesheet" href="https://use.typekit.net/hvp7jzm.css">
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+	<!-- animate.css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" />
 	<!-- CSS -->
 	<link rel="stylesheet" href="./assets/css/style.css">
+	<!-- GSAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+	<!-- wow.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<!-- script.js -->
+	<script src="./assets/js/script.js" defer></script>
 	<!-- ファビコンの設定 -->
 	<!-- <link rel="icon" type="image/png" href=""> 192 * 192 -->
 	<!-- <link rel="icon" type="image/png" href=""> 180 * 180 -->
@@ -106,7 +107,7 @@
 	<!-- /.p-header -->
 	<div class="p-mv l-mv">
 		<div class="p-mv__bg"></div>
-		<div class="p-mv__textArea l-mv__textArea">
+		<div class="p-mv__textArea l-mv__textArea wow fadeInUp">
 			<p class="p-mv__read">
 				<span class="p-mv__read__span">
 					いつでもどこでも。
@@ -125,7 +126,7 @@
 		</div>
 	</div>
 	<!-- /.p-mv -->
-	<main>
+	<main class="content">
 		<section class="p-pop1">
 			<div class="p-pop1__contentArea l-pop1__contentArea">
 				<div class="p-pop1__bg-right"></div>
@@ -168,7 +169,7 @@
 				<!-- /.p-realization__section-title -->
 				<div class="p-realization__content l-realization__content">
 					<ul class="p-realization__lists">
-						<li class="p-realization__item">
+						<li class="p-realization__item wow fadeInUp">
 							<div class="c-card1 p-realization__card">
 								<p class="c-card1__number">reason 01</p>
 								<div class="c-card1__img">
@@ -177,7 +178,7 @@
 								<p class="c-card1__text">交換・返却費が無料で“今”最適な空間を選べる</p>
 							</div>
 						</li>
-						<li class="p-realization__item">
+						<li class="p-realization__item wow fadeInUp">
 							<div class="c-card1 p-realization__card">
 								<p class="c-card1__number">reason 02</p>
 								<div class="c-card1__img">
@@ -186,7 +187,7 @@
 								<p class="c-card1__text">初期コスト抑え、気軽に質の良い空間を手に入れられる</p>
 							</div>
 						</li>
-						<li class="p-realization__item">
+						<li class="p-realization__item wow fadeInUp">
 							<div class="c-card1 p-realization__card">
 								<p class="c-card1__number">reason 03</p>
 								<div class="c-card1__img">
@@ -195,7 +196,7 @@
 								<p class="c-card1__text">モノを持たずに引っ越しや模様替えを楽しめる</p>
 							</div>
 						</li>
-						<li class="p-realization__item">
+						<li class="p-realization__item wow fadeInUp">
 							<div class="c-card1 p-realization__card">
 								<p class="c-card1__number">reason 04</p>
 								<div class="c-card1__img">
@@ -204,7 +205,7 @@
 								<p class="c-card1__text">モノをなるべく捨てない、環境に優しい暮らし</p>
 							</div>
 						</li>
-						<li class="p-realization__item">
+						<li class="p-realization__item wow fadeInUp">
 							<div class="c-card1 p-realization__card">
 								<p class="c-card1__number">reason 05</p>
 								<div class="c-card1__img">
@@ -234,7 +235,7 @@
 			<!-- /.l-inner -->
 			<div class="p-voice__content">
 				<ul class="p-voice__card">
-					<li class="p-voice__item">
+					<li class="p-voice__item wow fadeInUp">
 						<div class="p-voice__item__img">
 							<span class="p-voice__item__img__span">REVIEW 01</span>
 							<img src="./assets/img/img_woman in the room.jpg" alt="部屋の中にいる女性">
@@ -263,7 +264,7 @@
 							<div class="p-voice__item__name">20代女性・XXXX子さん</div>
 						</div>
 					</li>
-					<li class="p-voice__item">
+					<li class="p-voice__item wow fadeInUp">
 						<div class="p-voice__item__img">
 							<span class="p-voice__item__img__span">REVIEW 02</span>
 							<img src="./assets/img/img_parent&child.jpg" alt="親と子供">
@@ -287,7 +288,7 @@
 							<div class="p-voice__item__name">30代女性・XXXX子さん</div>
 						</div>
 					</li>
-					<li class="p-voice__item">
+					<li class="p-voice__item wow fadeInUp">
 						<div class="p-voice__item__img">
 							<span class="p-voice__item__img__span">REVIEW 03</span>
 							<img src="./assets/img/img_room 1.jpg" alt="部屋">
@@ -327,24 +328,24 @@
 				<p class="c-section-sub p-solution__sub-title">SOLUTION</p>
 				<div class="p-solution__content l-solution__content">
 					<ul class="p-solution__lists">
-						<li class="p-solution__item">
+						<li class="p-solution__item wow fadeInUp">
 							<p class="p-solution__item__text c-box-read1">しっくりくる家具を選びたい。でもいきなり買うのは自信がない</p>
 						</li>
-						<li class="p-solution__item">
+						<li class="p-solution__item wow fadeInUp">
 							<p class="p-solution__item__text c-box-read1">引っ越しのたびにものを持っていることが大きな負担である。</p>
 						</li>
-						<li class="p-solution__item">
+						<li class="p-solution__item wow fadeInUp">
 							<p class="p-solution__item__text c-box-read1">きちんとした家具を使いたいけど、予算的に負担が大きい</p>
 						</li>
 						<div class="p-solution__item__box">
-							<li class="p-solution__item">
+							<li class="p-solution__item wow fadeInUp">
 								<p class="p-solution__item__text c-box-read1">新しい商品が出たら買い換えたい</p>
 							</li>
-							<li class="p-solution__item">
+							<li class="p-solution__item wow fadeInUp">
 								<p class="p-solution__item__text c-box-read1">模様替えをもっと楽しみたい</p>
 							</li>
 						</div>
-						<li class="p-solution__item">
+						<li class="p-solution__item wow fadeInUp">
 							<p class="p-solution__item__text c-box-read1">モノを捨てない、環境に優しい暮らしを楽しみながらしたい</p>
 						</li>
 					</ul>
@@ -367,7 +368,7 @@
 				<div class="p-about__bg l-about__bg1">
 					<div class="p-about__content l-inner l-about__content">
 						<div class="l-about__transform">
-							<div class="p-about__head c-about l-about__head">
+							<div class="p-about__head c-about l-about__head wow fadeInUp">
 								<picture>
 									<source srcset="./assets/img/img_main.jpg" media="(min-width: 520px)">
 									<img src="./assets/img/sp/img_main-sp.png" alt="content1">
@@ -377,9 +378,10 @@
 							<!-- /.p-about__head -->
 							<div class="p-about__body l-about__body">
 								<div class="p-about__text-boxArea l-about__text-box">
-									<h3 class="p-about__heading-title">
+									<h3 class="p-about__heading-title wow fadeInUp">
 										<span>
-											<span><!-- tab時、二つ目のspanを右側に寄せるため二つspanを用意している -->
+											<span>
+												<!-- tab時、二つ目のspanを右側に寄せるため二つspanを用意している -->
 												「スキ」なものを際立たせた
 											</span>
 										</span>
@@ -390,8 +392,8 @@
 										</span>
 									</h3>
 									<div class="p-about__text-box">
-										<p class="p-about__text-box__title p-about__text-box__title1">STYLE POINT</p>
-										<p class="p-about__text-box__text">
+										<p class="p-about__text-box__title p-about__text-box__title1 wow fadeInUp">STYLE POINT</p>
+										<p class="p-about__text-box__text wow fadeInUp">
 											ソファの足元にオットマンを配置すれば、カウチスタイルの出来上がり。
 											<br>
 											アームレスの特徴を活かして左右どちらにでも足を降ろしやすいので、楽な姿勢を見つけてみて。
@@ -401,9 +403,9 @@
 										<img src="./assets/img/sp/img_man-sp.png" alt="ソファーに座る男性">
 									</div>
 									<div class="p-about__text-box">
-										<p class="p-about__text-box__title p-about__text-box__title1">ONE POINT ADVICE
+										<p class="p-about__text-box__title p-about__text-box__title1 wow fadeInUp">ONE POINT ADVICE
 										</p>
-										<p class="p-about__text-box__text">
+										<p class="p-about__text-box__text wow fadeInUp">
 											モバイルプロジェクターをサイドテーブルに置いて、足を伸ばした状態でゆったりと映画を楽むのはどうでしょう。Rich-Lifeではターンテーブルやスピーカーなどの音楽
 											家電も取り扱っています。
 										</p>
@@ -426,10 +428,10 @@
 							</div>
 							<!-- /.p-about__body -->
 							<div class="p-about__footer">
-								<h3 class="p-about__footer__main-title">使用している家具・家電</h3>
-								<p class="p-about__footer__sub">LINE UP</p>
+								<h3 class="p-about__footer__main-title wow fadeInUp">使用している家具・家電</h3>
+								<p class="p-about__footer__sub wow fadeInUp">LINE UP</p>
 								<ul class="p-about__footer__card">
-									<li class="p-about__footer__item">
+									<li class="p-about__footer__item wow fadeInUp">
 										<div class="p-about__footer__head">
 											<img src="./assets/img/img_speaker.png" alt="speaker">
 										</div>
@@ -439,7 +441,7 @@
 										</div>
 										<!-- /.p-about__footer__body -->
 									</li>
-									<li class="p-about__footer__item">
+									<li class="p-about__footer__item wow fadeInUp">
 										<div class="p-about__footer__head">
 											<img src="./assets/img/img_projector2.png" alt="projector">
 										</div>
@@ -449,7 +451,7 @@
 										</div>
 										<!-- /.p-about__footer__body -->
 									</li>
-									<li class="p-about__footer__item">
+									<li class="p-about__footer__item wow fadeInUp">
 										<div class="p-about__footer__head">
 											<img src="./assets/img/img_roomsofa.png" alt="room sofa">
 										</div>
@@ -473,7 +475,7 @@
 				<div class="p-about__bg2 l-about__bg2">
 					<div class="p-about__content l-inner l-about__content">
 						<div class="l-about__transform">
-							<div class="p-about__head c-about l-about__head">
+							<div class="p-about__head c-about l-about__head wow fadeInUp">
 								<picture>
 									<source srcset="./assets/img/img_main2.jpg" media="(min-width: 520px)">
 									<img src="./assets/img/sp/img_main2-sp.jpg" alt="content2">
@@ -483,9 +485,10 @@
 							<!-- /.p-about__head -->
 							<div class="p-about__body p-about__body2 l-about__body">
 								<div class="p-about__text-boxArea p-about__text-boxArea2 l-about__text-box2">
-									<h3 class="p-about__heading-title p-about-heading-title2">
+									<h3 class="p-about__heading-title p-about-heading-title2 wow fadeInUp">
 										<span>
-											<span> <!-- tab時、二つ目のspanを右側に寄せるため二つspanを用意している -->
+											<span>
+												<!-- tab時、二つ目のspanを右側に寄せるため二つspanを用意している -->
 												季節にあった彩りを
 											</span>
 										</span>
@@ -496,8 +499,8 @@
 										</span>
 									</h3>
 									<div class="p-about__text-box">
-										<p class="p-about__text-box__title p-about__text-box__title2">STYLE POINT</p>
-										<p class="p-about__text-box__text">
+										<p class="p-about__text-box__title p-about__text-box__title2 wow fadeInUp">STYLE POINT</p>
+										<p class="p-about__text-box__text wow fadeInUp">
 											ソファの上のクッションや壁面のフレーム、ソファ横の1人掛けの椅子などをベージュ〜ブラウンのアースカラーで統一。一方で碧編の白をワゴンの上に置くことで調和をとり、全体的に落ち着いた雰囲気に。
 										</p>
 									</div>
@@ -505,9 +508,9 @@
 										<img src="./assets/img/sp/img_room-right-sp.jpg" alt="ソファー">
 									</div>
 									<div class="p-about__text-box">
-										<p class="p-about__text-box__title p-about__text-box__title2">ONE POINT ADVICE
+										<p class="p-about__text-box__title p-about__text-box__title2 wow fadeInUp">ONE POINT ADVICE
 										</p>
-										<p class="p-about__text-box__text">
+										<p class="p-about__text-box__text wow fadeInUp">
 											ソファの上のクッションや壁面のフレーム、ソファ横の1人掛けの椅子などをベージュ〜ブラウンのアースカラーで統一。一方で碧編の白をワゴンの上に置くことで調和をとり、全体的に落ち着いた雰囲気に。
 										</p>
 									</div>
@@ -528,10 +531,10 @@
 							</div>
 							<!-- /.p-about__body -->
 							<div class="p-about__footer">
-								<h3 class="p-about__footer__main-title">使用している家具・家電</h3>
-								<p class="p-about__footer__sub">LINE UP</p>
+								<h3 class="p-about__footer__main-title wow fadeInUp">使用している家具・家電</h3>
+								<p class="p-about__footer__sub wow fadeInUp">LINE UP</p>
 								<ul class="p-about__footer__card">
-									<li class="p-about__footer__item">
+									<li class="p-about__footer__item wow fadeInUp">
 										<div class="p-about__footer__head">
 											<img src="./assets/img/img_sofa.jpg" alt="sofa">
 										</div>
@@ -541,7 +544,7 @@
 										</div>
 										<!-- /.p-about__footer__body -->
 									</li>
-									<li class="p-about__footer__item">
+									<li class="p-about__footer__item wow fadeInUp">
 										<div class="p-about__footer__head">
 											<img src="./assets/img/img_table.jpg" alt="table">
 										</div>
@@ -551,13 +554,14 @@
 										</div>
 										<!-- /.p-about__footer__body -->
 									</li>
-									<li class="p-about__footer__item">
+									<li class="p-about__footer__item wow fadeInUp">
 										<div class="p-about__footer__head">
 											<img src="./assets/img/img_chair.jpg" alt="chair">
 										</div>
 										<div class="p-about__footer__body">
 											<p class="p-about__footer__title">Single Sofa</p>
-											<p class="p-about__footer__text">一人掛け<span class="u-hidden-sp">ソファ</span></p>
+											<p class="p-about__footer__text">一人掛け<span class="u-hidden-sp">ソファ</span>
+											</p>
 										</div>
 										<!-- /.p-about__footer__body -->
 									</li>
@@ -612,10 +616,10 @@
 
 		<section class="p-features l-section l-features">
 			<div class="l-inner">
-				<h2 class="c-section-title l-section__title p-features__title">Rich-Lifeが愛される<br class="u-active-sp">4つのポイント</h2>
-				<p class="c-section-sub p-features__sub-title">FEATURES</p>
+				<h2 class="c-section-title l-section__title p-features__title wow fadeInUp">Rich-Lifeが愛される<br class="u-active-sp">4つのポイント</h2>
+				<p class="c-section-sub p-features__sub-title wow fadeInUp">FEATURES</p>
 				<ul class="p-features__list l-features__list">
-					<li class="p-features__item">
+					<li class="p-features__item wow fadeInUp">
 						<div class="p-features__item__head u-active-sp">
 							<span class="p-features__item__point">point01</span>
 							<h3 class="p-features__item__title">
@@ -637,7 +641,7 @@
 							</p>
 						</div>
 					</li>
-					<li class="p-features__item p-features__item--reverse">
+					<li class="p-features__item p-features__item--reverse wow fadeInUp wow fadeInUp">
 						<div class="p-features__item__head u-active-sp">
 							<span class="p-features__item__point">point02</span>
 							<h3 class="p-features__item__title">
@@ -659,7 +663,7 @@
 							</p>
 						</div>
 					</li>
-					<li class="p-features__item">
+					<li class="p-features__item wow fadeInUp">
 						<div class="p-feature__item__head u-active-sp">
 							<span class="p-features__item__point">point03</span>
 							<h3 class="p-features__item__title">
@@ -681,7 +685,7 @@
 							</p>
 						</div>
 					</li>
-					<li class="p-features__item p-features__item--reverse">
+					<li class="p-features__item p-features__item--reverse wow fadeInUp">
 						<div class="p-features__item__head u-active-sp">
 							<span class="p-features__item__point">point04</span>
 							<h3 class="p-features__item__title">
@@ -712,7 +716,7 @@
 
 		<section class="p-use l-use l-section">
 			<div class="l-inner">
-				<h2 class="c-section-title l-section__title p-use__title">
+				<h2 class="c-section-title l-section__title p-use__title wow fadeInUp">
 					<span class="u-active-pc">
 						気軽に簡単にRich-Lifeの使い方
 					</span>
@@ -720,9 +724,9 @@
 						気軽に簡単。<br>Rich-Lifeの使い方
 					</span>
 				</h2>
-				<p class="c-section-sub p-use__sub-title">HOW TO USE</p>
+				<p class="c-section-sub p-use__sub-title wow fadeInUp">HOW TO USE</p>
 				<ul class="p-use__list l-use__list">
-					<li class="p-use__item">
+					<li class="p-use__item wow fadeInUp">
 						<div class="p-use__item__img">
 							<img src="./assets/img/img_search.jpg" alt="search">
 						</div>
@@ -738,7 +742,7 @@
 						</div>
 						<!-- /.p-use__item__textArea -->
 					</li>
-					<li class="p-use__item">
+					<li class="p-use__item wow fadeInUp">
 						<div class="p-use__item__img">
 							<img src="./assets/img/img_moving.jpg" alt="moving">
 						</div>
@@ -754,7 +758,7 @@
 						</div>
 						<!-- /.p-use__item__textArea -->
 					</li>
-					<li class="p-use__item">
+					<li class="p-use__item wow fadeInUp">
 						<div class="p-use__item__img">
 							<img src="./assets/img/img_chair2.jpg" alt="chair2">
 						</div>
@@ -770,7 +774,7 @@
 						</div>
 						<!-- /.p-use__item__textArea -->
 					</li>
-					<li class="p-use__item">
+					<li class="p-use__item wow fadeInUp">
 						<div class="p-use__item__img">
 							<img src="./assets/img/img_room2.jpg" alt="room2">
 						</div>
@@ -831,8 +835,8 @@
 
 		<section class="p-faq l-faq l-section">
 			<div class="l-inner">
-				<h2 class="c-section-title l-section__title p-faq__title">よくある質問</h2>
-				<p class="c-section-sub p-faq__sub-title">FAQ</p>
+				<h2 class="c-section-title l-section__title p-faq__title wow fadeInUp">よくある質問</h2>
+				<p class="c-section-sub p-faq__sub-title wow fadeInUp">FAQ</p>
 				<ul class="p-faq__link l-faq__link">
 					<li class="p-faq__item">
 						<dt class="p-faq__item__title js-accordion">
@@ -1025,14 +1029,6 @@
 		<!-- /.l-inner -->
 	</footer>
 	<!-- /.p-footer l-footer -->
-
-
-	<!-- JQuery -->
-	<!-- <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
-        integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script> -->
-	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-	<!-- js -->
-	<script src="./assets/js/script.js"></script>
 </body>
 
 </html>

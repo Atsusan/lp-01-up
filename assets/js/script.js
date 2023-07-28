@@ -22,3 +22,6 @@ jQuery('#js-g-nav').click(function() { // 背面をクリックしたら解除�
     jQuery('.js-openbtn').removeClass('active');
     jQuery('#js-g-nav').removeClass('panelactive');
 });
+
+// wow.js
+new WOW().init();
